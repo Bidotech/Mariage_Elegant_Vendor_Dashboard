@@ -4,10 +4,10 @@
 const config = {
   title: 'Mariage Élégant Vendor Guide',
   tagline: 'Vendor dashboard documentation',
-  url: 'https://farhang64.github.io',
-  baseUrl: '/vendor-dashboard-docs/',
-  organizationName: 'farhang64',
-  projectName: 'vendor-dashboard-docs',
+  url: 'https://bidotech.github.io',
+  baseUrl: '/Mariage_Elegant/',
+  organizationName: 'Bidotech',
+  projectName: 'Mariage_Elegant',
   trailingSlash: false,
   onBrokenLinks: 'throw',
   future: {v4: true},
@@ -29,7 +29,7 @@ const config = {
           routeBasePath: '/',
           sidebarPath: './sidebars.js',
           editUrl:
-            'https://github.com/farhang64/vendor-dashboard-docs/edit/main/',
+            'https://github.com/Bidotech/Mariage_Elegant/edit/main/',
         },
         blog: false,
         theme: {customCss: './src/css/custom.css'},
@@ -53,7 +53,7 @@ const config = {
         },
         {type: 'localeDropdown', position: 'right'},
         {
-          href: 'https://github.com/farhang64/vendor-dashboard-docs',
+          href: 'https://github.com/Bidotech/Mariage_Elegant',
           label: 'GitHub',
           position: 'right',
         },
@@ -75,7 +75,7 @@ const config = {
           items: [
             {
               label: 'GitHub repository',
-              href: 'https://github.com/farhang64/vendor-dashboard-docs',
+              href: 'https://github.com/Bidotech/Mariage_Elegant',
             },
           ],
         },

@@ -4,8 +4,8 @@ Bilingual English/French product documentation for the Mariage Élégant vendor 
 
 ## Documentation site
 
-- English: <https://farhang64.github.io/vendor-dashboard-docs/>
-- Français: <https://farhang64.github.io/vendor-dashboard-docs/fr/>
+- English: <https://bidotech.github.io/Mariage_Elegant/>
+- Français: <https://bidotech.github.io/Mariage_Elegant/fr/>
 
 ## Run locally
 
