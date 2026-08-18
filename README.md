@@ -4,6 +4,8 @@ Bilingual English/French product documentation for the Mariage Élégant vendor 
 
 ## Documentation site
 
+After a repository administrator enables **Settings → Pages → GitHub Actions**:
+
 - English: <https://bidotech.github.io/Mariage_Elegant/>
 - Français: <https://bidotech.github.io/Mariage_Elegant/fr/>
 
