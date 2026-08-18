@@ -1,0 +1,109 @@
+:root {
+  --ifm-color-primary: #df5874;
+  --ifm-color-primary-dark: #d93b5d;
+  --ifm-color-primary-darker: #d52c51;
+  --ifm-color-primary-darkest: #b52142;
+  --ifm-color-primary-light: #e5758c;
+  --ifm-color-primary-lighter: #e98499;
+  --ifm-color-primary-lightest: #f1aebc;
+  --ifm-background-color: #fffdfd;
+  --ifm-heading-color: #1f2d3d;
+  --ifm-font-family-base: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    sans-serif;
+  --ifm-heading-font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    sans-serif;
+  --ifm-code-font-size: 94%;
+  --ifm-navbar-shadow: 0 1px 0 rgba(31, 45, 61, 0.08);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #f1839a;
+  --ifm-color-primary-dark: #ed607d;
+  --ifm-color-primary-darker: #eb4f6e;
+  --ifm-color-primary-darkest: #e51b47;
+  --ifm-color-primary-light: #f5a6b6;
+  --ifm-color-primary-lighter: #f7b7c4;
+  --ifm-color-primary-lightest: #fce9ed;
+}
+
+.navbar {
+  background: #fff4f6;
+}
+
+[data-theme='dark'] .navbar {
+  background: #241b1e;
+}
+
+.theme-doc-markdown {
+  max-width: 960px;
+}
+
+.theme-doc-markdown h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  letter-spacing: -0.025em;
+}
+
+.theme-doc-markdown h2 {
+  margin-top: 2.25rem;
+}
+
+.lead {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 1.16rem;
+  line-height: 1.7;
+}
+
+.screenshot {
+  margin: 1.5rem 0 2rem;
+}
+
+.screenshot img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(31, 45, 61, 0.1);
+}
+
+.screenshot figcaption {
+  margin-top: 0.65rem;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.quick-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.quick-grid a {
+  display: block;
+  padding: 1.15rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  color: var(--ifm-heading-color);
+  font-weight: 700;
+  text-decoration: none;
+  background: var(--ifm-background-surface-color);
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+}
+
+.quick-grid a:hover {
+  transform: translateY(-2px);
+  border-color: var(--ifm-color-primary-light);
+  box-shadow: 0 10px 24px rgba(31, 45, 61, 0.08);
+}
+
+@media (max-width: 700px) {
+  .theme-doc-markdown {
+    padding-inline: 0.25rem;
+  }
+
+  .screenshot img {
+    border-radius: 8px;
+  }
+}
